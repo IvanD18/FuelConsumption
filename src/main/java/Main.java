@@ -3,7 +3,7 @@ public class Main {
         int fuelAmount = 30;
         int fuelRate = 7;
         int distanceUnit = 100;
-        calculateService service = new calculateService();
+        CalculateService service = new CalculateService();
         System.out.println(service.calculate(fuelAmount, fuelRate, distanceUnit));
     }
 }
