@@ -3,6 +3,7 @@ public class Main {
         int fuelAmount = 30;
         int fuelRate = 7;
         int distanceUnit = 100;
-        System.out.println(fuelAmount * distanceUnit / fuelRate);
+        calculateService service = new calculateService();
+        System.out.println(service.calculate(fuelAmount, fuelRate, distanceUnit));
     }
 }
